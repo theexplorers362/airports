@@ -1,7 +1,7 @@
 
 import json
 
-with open("C:\\Users\\Felicia\\Desktop\\airports.json", "r") as f:
+with open("airports.json", "r") as f:
     data = json.load(f)
 
 with open("newdoc.json","w+") as outfile:
